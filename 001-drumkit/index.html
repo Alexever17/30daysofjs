@@ -9,58 +9,58 @@
   <title>JS Drum Kit</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="../favicon.gif" type="image/gif" sizes="16x16">
+  <link href="https://fonts.googleapis.com/css?family=Concert+One|Space+Mono" rel="stylesheet">
 </head>
 <body>
-
-
   <div class="keys">
-    <div data-key="65" class="key">
+    <div class="key" id="A">
       <kbd>A</kbd>
       <span class="sound">clap</span>
     </div>
-    <div data-key="83" class="key">
+    <div class="key" id="S">
       <kbd>S</kbd>
       <span class="sound">hihat</span>
     </div>
-    <div data-key="68" class="key">
+    <div class="key" id="D">
       <kbd>D</kbd>
       <span class="sound">kick</span>
     </div>
-    <div data-key="70" class="key">
+    <div class="key" id="F">
       <kbd>F</kbd>
       <span class="sound">openhat</span>
     </div>
-    <div data-key="71" class="key">
-      <kbd>G</kbd>
+    <div class="key" id="Space">
+      <kbd>Space</kbd>
       <span class="sound">boom</span>
     </div>
-    <div data-key="72" class="key">
+    <div class="key" id="H">
       <kbd>H</kbd>
       <span class="sound">ride</span>
     </div>
-    <div data-key="74" class="key">
+    <div class="key" id="J">
       <kbd>J</kbd>
       <span class="sound">snare</span>
     </div>
-    <div data-key="75" class="key">
+    <div class="key" id="K">
       <kbd>K</kbd>
       <span class="sound">tom</span>
     </div>
-    <div data-key="76" class="key">
+    <div class="key" id="L">
       <kbd>L</kbd>
       <span class="sound">tink</span>
     </div>
   </div>
 
-  <audio data-key="65" src="sounds/clap.wav"></audio>
-  <audio data-key="83" src="sounds/hihat.wav"></audio>
-  <audio data-key="68" src="sounds/kick.wav"></audio>
-  <audio data-key="70" src="sounds/openhat.wav"></audio>
-  <audio data-key="71" src="sounds/boom.wav"></audio>
-  <audio data-key="72" src="sounds/ride.wav"></audio>
-  <audio data-key="74" src="sounds/snare.wav"></audio>
-  <audio data-key="75" src="sounds/tom.wav"></audio>
-  <audio data-key="76" src="sounds/tink.wav"></audio>
+  <audio id="eins" src="sounds/clap.wav"></audio>
+  <audio id="zwei" src="sounds/hihat.wav"></audio>
+  <audio id="drei" src="sounds/kick.wav"></audio>
+  <audio id="vier" src="sounds/openhat.wav"></audio>
+  <audio id="fuenf" src="sounds/boom.wav"></audio>
+  <audio id="sechs" src="sounds/ride.wav"></audio>
+  <audio id="sieben" src="sounds/snare.wav"></audio>
+  <audio id="acht" src="sounds/tom.wav"></audio>
+  <audio id="neun" src="sounds/tink.wav"></audio>
 
+  <script type="text/javascript" src="master.js"></script>
 </body>
 </html>
