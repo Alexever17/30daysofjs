@@ -75,7 +75,6 @@ function playingSound(keytrigger) {
 function animateButton(Letter) {
     var onscreenKEY = document.getElementById(Letter);
     onscreenKEY.classList.add('playing');
-    onscreenKEY.classList.remove('playing');
-    //remove('MyClass');
-
+    setTimeout(function(){ onscreenKEY.classList.remove('playing'); }, 70);
+    // onscreenKEY.classList.remove('playing');
 }
