@@ -76,5 +76,4 @@ function animateButton(Letter) {
     var onscreenKEY = document.getElementById(Letter);
     onscreenKEY.classList.add('playing');
     setTimeout(function(){ onscreenKEY.classList.remove('playing'); }, 70);
-    // onscreenKEY.classList.remove('playing');
 }
